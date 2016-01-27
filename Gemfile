@@ -12,11 +12,14 @@ group :production do
     gem 'rails_12factor'
 end
  
-gem 'bootstrap-sass', ' 3.3.1'  #tutorial uses 3.31, may need to change this
+ #Use twitter bootstrap library 
+gem 'bootstrap-sass', '~> 3.3.6'  #tutorial uses 3.31, may need to change this
 
+#Use font awesome library for cool icons
+gem 'font-awesome-sass', '~> 4.5.0'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+# Changed version of this gem as per bootstrap instructions for 3.36
+gem 'sass-rails', '>= 3.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
