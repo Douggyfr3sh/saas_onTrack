@@ -17,3 +17,14 @@
 //Import Bootstrap!!
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+//Change bootstrap Jumbotron class to have different BG 
+.jumbotron {
+    background: #BFB9B4;
+}
+
+//Modify jumbotron span to make company name stand out
+.jumbotron .sp_green {
+    color: #3BBF13;
+    font-weight: bold;
+}
