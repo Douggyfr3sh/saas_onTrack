@@ -20,6 +20,21 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+//Style our nav bar to have a nice gradient from uiGradients.com: 
+.navbar {
+    background: #232526; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+
+//Make sitewide body background be a nice white "cloud" gradient 
+//Gradient sourced from uigradients.com
+body {
+    background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
 //Change bootstrap Jumbotron class to have different BG 
 .jumbotron {
     background: #BFB9B4;
@@ -30,3 +45,4 @@
     color: #277F0D;
     font-weight: bold;
 }
+
